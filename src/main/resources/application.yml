@@ -1,0 +1,10 @@
+spring:
+    application:
+        name: springboot-graphql-client
+
+server:
+  port: 8090
+
+application:
+    graphql:
+        serverUrl: http://localhost:8080/graphql
